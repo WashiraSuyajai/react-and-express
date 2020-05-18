@@ -22,7 +22,7 @@ class List extends Component {
   render() {
     const { list } = this.state;
     return (
-      <div>
+      <div className="App">
         <h1>List of Items</h1>
         {list.length ? (
           <div>
